@@ -1,13 +1,13 @@
 body {
-  background-color: lavenderblush;
+  background-color: lightgrey;
 }
 
 h1 {
   text-align: center;
-  color: aqua;
+  color: darkorange;
 }
 
 p {
   text-align: center;
-  color: darkgreen;
+  color: orangered;
 }
