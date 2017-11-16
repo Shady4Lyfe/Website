@@ -9,18 +9,17 @@ h1 {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   font-size: 25px;
   font-weight: 100;
+  margin-top: -10px;
 }
 
 .SK {
   color: #F03D3D;
   font-size: 30px;
-  font-weight: bold;
+  font-weight: 900;
 }
 
-.logo {
-  position: absolute;
-  margin-left: -87.5px;
-  left: 50%;
+.center {
+  text-align: center;
 }
 
 header {
@@ -32,9 +31,35 @@ header {
 
 section {
   color: whitesmoke;
-  font-size: 17px;
   position: absolute;
-  margin-top: 210px;
+  font-size: 15px;
+  width: 640px;
+  margin-top: 230px;
   margin-left: -320px;
   left: 50%
+}
+
+/* Navigation Bar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: whitesmoke;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #05052F;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: lightgrey;
 }
