@@ -1,0 +1,107 @@
+body {
+  background-color: #05052F;
+  margin: 0;
+}
+
+.Title {
+  text-align: center;
+  color: darkorange;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 25px;
+  font-weight: 100;
+  margin-top: -10px;
+}
+
+.SK {
+  color: #F03D3D;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+div {
+  background-color: whitesmoke;
+  margin: 25px auto;
+  width: 600px;
+  padding: 20px 100px;
+  border-radius: 25px;
+  overflow: auto;
+}
+
+h1 {
+  text-align: center;
+  color: darkgrey;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+p {
+  color: #1E1E1E;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 15px;
+  letter-spacing: 1px;
+
+}
+
+.center {
+  text-align: center;
+  margin-top: -30px;
+}
+
+header {
+  background-color: whitesmoke;
+  margin: auto;
+  margin-top: -50px;
+  width: 100%;
+  height: 220px;
+}
+
+.lane {
+  color: gold;
+  font-size: 20px;
+}
+
+.name {
+  color: #1E1E1E;
+  font-size: 30px;
+}
+
+.quote {
+  text-align: center;
+  color: #1E1E1E;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+.left {
+  float: left;
+  margin-right: 20px;
+}
+
+/* Navigation Bar */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: whitesmoke;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #05052F;
+  font-family: Tahoma, Geneva, sans-serif;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: lightgrey;
+}
