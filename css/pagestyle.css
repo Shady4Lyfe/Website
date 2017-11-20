@@ -35,6 +35,18 @@ h1 {
   font-weight: bold;
 }
 
+h2 {
+  text-align: center;
+  color: white;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+iframe {
+  display: block;
+  margin: auto;
+}
+
 p {
   color: #1E1E1E;
   font-family: Tahoma, Geneva, sans-serif;
